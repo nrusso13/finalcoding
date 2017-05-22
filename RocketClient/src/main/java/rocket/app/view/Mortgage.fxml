@@ -29,6 +29,16 @@
             <Label text="House Cost" />
             <Label text="Down Payment" GridPane.rowIndex="1" />
             <Label text="Calculated Payment" GridPane.rowIndex="5" />
+         
+         
+           <TestField text = "txtIncome" GridPane.colummIndex="1" GridPan.rowIndex="1"/>
+           <TextField text = "txtExpenses" GridPane.colummIndex="1" GridPan.rowIndex="2"/>
+           <TextField text = "txtCreditScore" GridPane.colummIndex="1" GridPan.rowIndex="3"/>
+           <TestField text = "txtHouseCost" GridPane.colummIndex="1" GridPan.rowIndex="4"/>
+           <ComboBox fx:id = "cmbTerm" prefHeight minHeight="10.0" prefHeight="30.0" prefWidth="200.0" GridPane.colummIndex="1" GridPan.rowIndex="5"/>
+           <Label fx:id = "lblMortgagePayment" minHeight="10.0" prefHeight="30.0" prefWidth="200.0" GridPane.colummIndex="1" GridPan.rowIndex="6"/>
+           
+         
          </children>
       </GridPane>
    </children>
